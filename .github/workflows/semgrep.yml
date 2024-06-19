@@ -22,5 +22,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: |
-        npm i --package-lock-only
         semgrep ci
