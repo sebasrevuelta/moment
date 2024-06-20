@@ -11,17 +11,17 @@ importers:
   packages/serviceA:
     dependencies:
       moment:
-        specifier: ^2.24.0
-        version: 2.30.1
+        specifier: 2.24.0
+        version: 2.24.0
 
   packages/serviceB:
     dependencies:
       moment:
-        specifier: ^2.29.4
-        version: 2.30.1
+        specifier: 2.24.0
+        version: 2.24.0
 
 packages:
 
-  /moment@2.30.1:
-    resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
+  /moment@2.24.0:
+    resolution: {integrity: sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==}
     dev: false
