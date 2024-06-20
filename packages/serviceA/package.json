@@ -1,7 +1,7 @@
 {
   "name": "serviceA",
   "version": "1.0.0",
-  "description": "A simple project using the moment.js library",
+  "description": "A simple project using a NON vulnerable version of moment.js library",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -16,6 +16,6 @@
   "author": "Sebas Revuelta",
   "license": "ISC",
   "dependencies": {
-    "moment": "2.24.0"
+    "moment": "2.29.4"
   }
 }

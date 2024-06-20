@@ -1,7 +1,7 @@
 {
   "name": "serviceB",
   "version": "1.0.0",
-  "description": "A simple project using the moment.js library",
+  "description": "A simple project using a VULNERABLE version of the moment.js library",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
