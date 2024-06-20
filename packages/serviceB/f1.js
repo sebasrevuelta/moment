@@ -28,7 +28,7 @@ class BranchesStatusDropdown extends React.Component {
     renderFilterMenuItem(filter, isYes, prop, callback) {
 
         let msg = isYes ? this.props.intl.formatMessage({id: "search.statusDropdown.yes"}) : this.props.intl.formatMessage({id: "search.statusDropdown.no"});
-
+        moment(date).toISOString();
         return (
             <MenuItem eventKey={filter} active={prop}
                       onSelect={() => {
