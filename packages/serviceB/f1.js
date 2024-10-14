@@ -5,7 +5,7 @@ import {Button, DropdownButton, Glyphicon, InputGroup, MenuItem} from "react-boo
 import DateTime from "react-datetime";
 import moment from 'moment';
 
-
+// class
 class BranchesStatusDropdown extends React.Component {
 
     static propTypes = {
